@@ -24,13 +24,14 @@ Steps to Install Django
 pip install virtualenv
 2) Set Virtual environment- Setting up the virtual environment which will allow us to edit the
 dependency which generally your system wouldn’t allow.
-Follow these steps to set up a virtual environment1. Create a virtual environment by giving this command in cmd:
-virtualenv env_site
-2. Change directory to env_site by this command:
-cd env_site
-3. Go to Scripts directory inside env_site and activate virtual environment:
-cd Scripts
-activate
+   Follow these steps to set up a virtual environment
+   1. Create a virtual environment by giving this command in cmd:
+   virtualenv env_site
+   2. Change directory to env_site by this command:
+   cd env_site
+   3. Go to Scripts directory inside env_site and activate virtual environment:
+   cd Scripts
+   activate
 3) Install Django- Install django by giving following commandpip install django
 4) Return to the env_site directory by using the following command:
 cd ..
@@ -53,11 +54,11 @@ Steps to be executed on cmd to execute the project In cmd:
 Steps to be executed on cmd to execute the project In VS:
 c:/Users/vanib/Documents/studyroom/env/Scripts/Activate.ps1
 
-## Working of the Project Internally:
+## Working of the Project Internally:<br />
 ● A url file is created in which all the urls are kept and when a particular url appears then it
 searches for it in the url file then it is directed to views file and to a particular function
-which is mentioned in the url
-● And then it executes the function.
+which is mentioned in the url<br />
+● And then it executes the function.<br />
 ● The objects which need to be rendered out in the template are passed in context
 dictionary and at the end of the function are passed in the return method which directs
-its to the template in which the objects should be rendered.
+its to the template in which the objects should be rendered.<br />
