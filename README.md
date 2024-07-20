@@ -1,20 +1,20 @@
 # Online_Study_Room
 
-## Features Of The Project:
+## Features Of The Project:<br />
 ● In the project we have created a study room in which many users can interact with each
-other by making rooms on different topics.
+other by making rooms on different topics.<br />
 ● There are many templates like home, room, user, activity component, feed component,
-topics component, delete, room form and login register.
-● Users can create a room, edit a room or can delete a room.
+topics component, delete, room form and login register.<br />
+● Users can create a room, edit a room or can delete a room.<br />
 ● Users can chat with other user by sending messages in the room and can also edit and
-delete their messages.
+delete their messages.<br />
 ● In the home page we have shown the list of topics, rooms and the recent activity which
-includes list of all recent chat.
+includes list of all recent chat.<br />
 ● In the room we have list of chats for the particular room and the list of participants of that
-room.
-● The user can login or register by login register form template.
+room.<br />
+● The user can login or register by login register form template.<br />
 ● The user page of a particular pages contains lit of all topics, the room created by user
-and the chats by the particular user in all rooms.
+and the chats by the particular user in all rooms.<br />
 
 ## Installation:
 In our project we have used django for developing our online study room so following are the
